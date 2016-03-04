@@ -13,6 +13,7 @@ header {
   background: lightgrey url(http://s3-us-west-1.amazonaws.com/scifindr/articles/images/000/000/922/large/1433769450-6581471d1e597ecad30cee5ad2ce6298-1366x911.jpg?1437603305) no-repeat;
   background-position: center;
   background-origin: center;
+  text-shadow: 4px 4px 4px darkgrey;
 }
 
 header h1 {
@@ -63,5 +64,19 @@ background-color: black;
 }
 
 .surf {
-  margin:
+  margin: 0 auto;
+}
+
+.leftsidebar {
+  width: 475px;
+  height: 700px;
+  background-color: white;
+  float: left;
+  border-right: 2px solid black;
+}
+
+.leftsidebar h3 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 2rem;
 }
