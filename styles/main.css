@@ -52,3 +52,7 @@ background-color: black;
   top: 420px;
   right: 430px;
 }
+
+.sidebarright h2 {
+  margin: 120px 0 0 82px;
+}
