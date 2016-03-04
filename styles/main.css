@@ -41,6 +41,8 @@ background-color: black;
   height: 700px;
   background-color: white;
   float: right;
+  border-right: 2px solid black;
+  text-align: center;
 
 
 
@@ -54,5 +56,5 @@ background-color: black;
 }
 
 .sidebarright h2 {
-  margin: 120px 0 0 82px;
+  margin: 120px 0 0 0px;
 }
