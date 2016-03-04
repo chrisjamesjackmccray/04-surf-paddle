@@ -42,4 +42,13 @@ background-color: black;
   background-color: white;
   float: right;
 
+
+
+}
+
+.sidebarright img {
+  border-radius: 50%;
+  position: absolute;
+  top: 420px;
+  right: 430px;
 }
