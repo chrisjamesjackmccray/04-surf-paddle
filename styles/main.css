@@ -61,6 +61,11 @@ background-color: white;
 
 .sidebarright h2 {
   margin: 120px 0 0 0px;
+  color: darkblue;
+}
+
+.sidebarright h3 {
+  color: darkblue;
 }
 
 .surf {
@@ -89,4 +94,17 @@ background-color: white;
   border-radius: 50%;
   width: 20px;
   margin: 0 0 50px 75px;
+}
+
+.leftsidebar p {
+  margin: 0 0 0 100px;
+  color: darkblue;
+}
+
+.topwave {
+  position: absolute;
+  border-radius: 50%;
+  width: 40px;
+  right: 20px;
+
 }
