@@ -1,0 +1,25 @@
+
+
+
+header {
+  width: 100%;
+  height: 400px;
+  margin: 0;
+  background: darkgrey url(http://s3-us-west-1.amazonaws.com/scifindr/articles/images/000/000/922/large/1433769450-6581471d1e597ecad30cee5ad2ce6298-1366x911.jpg?1437603305) no-repeat;
+  background-position: center;
+  background-origin: center;
+}
+
+header h1 {
+  text-align: center;
+  padding: 75px 0 0 0;
+  
+
+}
+
+
+.sidebar {
+  width: 400px;
+  heighr: 400px;
+  background-color: yellow;
+}
