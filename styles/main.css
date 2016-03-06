@@ -1,3 +1,7 @@
+.clearfix {
+  overflow: auto;
+}
+
 main {
   width: 100%;
   height: 700px;
@@ -7,9 +11,31 @@ main {
   border-bottom: 1px solid lightgrey;
 }
 
+.topwave {
+  border-radius: 50%;
+  width: 40px;
+  top: 20px;
+  right: 200px;
+
+}
+
+
+.surfpaddle {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  position: relative;
+  right: -300px;
+  top: 25px;
+  width: 400px;
+}
+
 .search {
-  margin: 0 0px 20px 500px;
-  padding: 20px 0 0 0;
+  position: relative;
+  position: inline-block;
+  width: 200px;
+  height: 20px;
+  margin: 0 0 0 850px;
+  padding: 0 0 0 0;
 }
 
 
@@ -31,7 +57,7 @@ header h1 {
 
 header p {
   text-align: center;
-  padding: 0 0 50px 0;
+  padding: 0 0 0 0;
   margin: 0;
 }
 
@@ -82,6 +108,7 @@ background-color: white;
 
 .surf {
   margin: 0 auto;
+
 }
 
 .leftsidebar {
@@ -113,16 +140,6 @@ background-color: white;
   font-size: 80%;
 }
 
-.topwave {
-  position: absolute;
-  border-radius: 50%;
-  width: 40px;
-  right: 40px;
-  float: left;
-
-
-
-}
 
 .leftp {
   color: black;
@@ -150,8 +167,6 @@ h4 {
   font-style: oblique;
   font-size: 110%;
   color: darkblue;
-
-
 }
 
 .aboutad {
