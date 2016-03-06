@@ -1,5 +1,6 @@
 body {
   margin: 0 0 0 0;
+  background-color: black;
 }
 
 .clearfix {
@@ -12,7 +13,6 @@ main {
   background-color: black;
   background-position: center;
   background-origin: center;
-  border-bottom: 1px solid lightgrey;
 }
 
 .topwave {
@@ -36,7 +36,7 @@ main {
 }
 
 .search {
-  position: absolute;;
+  position: absolute;
   position: inline-block;
   width: 200px;
   height: 20px;
@@ -196,11 +196,30 @@ h4 {
 }
 
 .images {
-  width: 980px;
+  width: 800px;
+  margin: 0 auto;
 
 }
 
 .images .link {
-  width: 245px;
+  position: relative;
+  width: 200px;
+  width: 200px;
   float: left;
+}
+
+.images .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  backgruond-color: deeppink;
+  opacity: .4;
+  transition: opacity 2s;
+}
+
+.images .overlay:hover {
+  opacity: 0;
+  transition: opacity 2s;
 }
