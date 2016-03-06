@@ -13,6 +13,7 @@ main {
   background-color: black;
   background-position: center;
   background-origin: center;
+  border-bottom: lightgrey;
 }
 
 .topwave {
@@ -229,4 +230,23 @@ h5 {
   margin: 160px 0 0px 28px;
   position: absolute;
   font-size: 2em;
+}
+
+.mostpop {
+  width: 799px;
+  height: 100px;
+  background-color: white;
+  margin: 0 auto;
+  padding: 0;
+  border-right: 1px solid lightgrey;
+  border-left: 1px solid lightgrey;
+}
+
+h6 {
+  color: darkblue;
+  text-align: center;
+  margin: 0 0 0 0;
+  padding: 28px 0 0 0;
+  font-size: 2em;
+
 }
