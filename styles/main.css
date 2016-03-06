@@ -96,7 +96,7 @@ background-color: white;
   margin: 0 0 50px 75px;
 }
 
-.leftsidebar p {
+.jacklefttop {
   margin: 0 0 0 100px;
   color: darkblue;
 }
@@ -107,4 +107,8 @@ background-color: white;
   width: 40px;
   right: 20px;
 
+}
+
+.leftp {
+  color: black;
 }
