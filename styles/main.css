@@ -194,3 +194,13 @@ h4 {
   color: lightgrey;
   font-family: 'Playfair Display', serif;
 }
+
+.images {
+  width: 980px;
+
+}
+
+.images .link {
+  width: 245px;
+  float: left;
+}
