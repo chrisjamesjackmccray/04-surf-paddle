@@ -209,13 +209,14 @@ h4 {
   float: left;
 }
 
+
 .images .overlay {
   position: absolute;
-  bottom: 0;
+  bottom: 1;
   left: 0;
   width: 200px;
   height: 200px;
-  backgruond-color: deeppink;
+  background-color: deeppink;
   opacity: .4;
   transition: opacity 2s;
 }
@@ -233,7 +234,7 @@ h5 {
 }
 
 .mostpop {
-  width: 799px;
+  width: 798px;
   height: 100px;
   background-color: white;
   margin: 0 auto;
